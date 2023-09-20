@@ -1,7 +1,3 @@
-Svelte component for rendering outside the DOM of parent component
-
-Idea borrowed from here: https://github.com/sveltejs/svelte/issues/3088#issuecomment-505785516
-
 # Installation
 
 ```sh
@@ -49,7 +45,3 @@ The functionality can also be applied to DOM elements directly via a svelte acti
 ```
 
 The `hidden` atrribute is only needed when using ssr, when portal has moved the element to it's targetted location it removes the hidden attribute.
-
-## TypeScript support
-
-`<script lang="ts">` users should import from `"svelte-portal/src/Portal.svelte"` instead of `"svelte-portal"` to get typing support.
